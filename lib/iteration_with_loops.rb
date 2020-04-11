@@ -9,8 +9,7 @@ def find_min_in_nested_arrays(src)
      value = src[index][0]
      
     while element < src[index].length do
-      
-    if value > src[index][element]
+      if value > src[index][element]
       value = src[index][element]
     end
   element += 1
